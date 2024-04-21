@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(84,139,53);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Grid {
+  display: grid;
+  width: max-content;
+  margin: auto;
+  grid-template-columns: repeat(17, 35px);
+  grid-template-rows: repeat(15, 35px);
+}
+
+.Empty {
+  width: 35px;
+  height: 35px;
+}
+
+.Even {
+  background-color:rgb(171,216,80);
+}
+
+.Odd {
+  background-color: rgb(163,208,72);
+}
+
+.Snake {
+  background-color: rgb(35,77,170);
+}
+
+.Food {
+  background-color: rgb(231,70,31);
+}
+
+.Up {
+  background-image: linear-gradient(to top, rgb(35,77,170), rgb(77,124,245));
+}
+
+.Left {
+  background-image: linear-gradient(to left, rgb(35,77,170), rgb(77,124,245));
+}
+
+.Right{
+  background-image: linear-gradient(to right, rgb(35,77,170), rgb(77,124,245));
+}
+
+.Down{
+  background-image: linear-gradient(to bottom, rgb(35,77,170), rgb(77,124,245));
+}
+
+.Title{
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Scores{
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 3px;
+  margin: 100px;
+}
+
+.Heading {
+  border: 10px rgb(75,116,42) solid;
+  text-align: center;
+  background-color: rgb(75,116,42);
+}
